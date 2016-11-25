@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `User` (
+  `id` int(8) NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  `isAdmin` tinyint(1) DEFAULT NULL,
+  `createdDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=24 ;
